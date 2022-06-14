@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Lato:ital,wght@0,300;1,300&family=Rubik:ital,wght@1,300&display=swap');
+
+body{
+	overflow-x: hidden;
+}
+/* body{
+  
+  background-image: radial-gradient(circle, rgb(0 0 0), rgb(0 0 0), rgb(159 10 255));
+}
+
+.background-color{
+  background-image: radial-gradient(circle, rgb(0 0 0), rgb(0 0 0), rgb(159 10 255));
+  
+}
+.cards{
+  background-image: radial-gradient(circle, rgb(0 0 0), rgb(0 0 0), rgb(159 10 255));
+
+}
+
+.carousels{
+  background-image: radial-gradient(circle, rgb(0 0 0), rgb(0 0 0), rgb(159 10 255));
+  
+}
+.card-body,.col{
+  background-image: radial-gradient(circle, rgb(0 0 0), rgb(0 0 0), rgb(159 10 255));
+
+}
+footer{
+  background-image: radial-gradient(circle, rgb(0 0 0), rgb(0 0 0), rgb(159 10 255));
+  color: white;
+}
+
+.color{
+  color: aliceblue;
+} */
+#video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.left{
+  float:right;
+}
+
+.card-hover:hover{
+transform: scale(1.1);
+z-index: 10;
+cursor: pointer;
+border-radius: 10px;
+
+}
+
+/* North India  */
+
+.image-responsive{
+  opacity: .85;
+  filter: brightness(0.5);
+  height: 100vh;
+   width: 100vw;
+   
+}
+.my-image-text {
+
+  position: absolute;
+  font-size: 4rem;
+  top: 45%;
+  left: 40%;
+  text-align: center;
+  
+  }
+  @media screen and (max-width: 600px) {
+    .my-image-text {
+      font-size: 3rem;
+      left: 20%;
+    }
+  }
+  /* @media screen and (max-width: 992px) {
+    .my-image-text {
+      font-size: 3rem;
+      left: 35%;
+    }
+  } */
+
+
+.map iframe{
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.heading{
+	font-family: 'Rubik', sans-serif;
+}
+.paragraph{
+	font-family: 'Lato', sans-serif;
+	font-size: large;
+
+}
+/* .container {
+	max-width: 1170px;
+	margin: auto;
+} */
+
+.rower {
+	display: flex;
+  flex-direction: row;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer {
+	background-image:radial-gradient(circle,rgb(0 118 120),rgb(20,54,59),rgb(52 32 65));
+	padding: 70px 0;
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+  font-weight:bolder;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #6eee1e;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(185, 188, 8, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+}
+
+
+
